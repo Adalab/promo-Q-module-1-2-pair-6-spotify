@@ -1,3 +1,3 @@
-## Project Spotify create page home
+## Project Spotify: creating homepage
 
-In this project we want clone page Spotify.
+In this project we want to clone Spotify page.
