@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets./css/main.css" />
+
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+        <img class="logo-spotify"src="./assets/images/logo.png" alt="Logo de Spotify">
+    </header>
+    <main>
+        <h2>Regístrate gratis para escuchar.</h2>
+      
+        <button>Registrarte con Facebook</button>
+      
+        <button>Registrarte con Google</button>
+        -o-
+        <h2>Registrarte con tu correo electrónico</h2>
+        <form>
+            <label for="emailType">¿Cuál es tu correo electrónico?</label>
+            <input type="email" name="emailType" id="emailType" placeholder="Pon tu correo electrónico">
+      
+            <label for="confirmType">Confirma el correo electrónico</label>
+            <input type="email" name="confirmType" id="confirmType" placeholder="Vuelve a poner tu correo electrónico">
+      
+            <label for="passType">Crea una contraseña</label>
+            <input type="password" name="passType" id="passType" placeholder="Crea una contraseña.">
+      
+            <label for="nameType">¿Cómo quieres que te llamemos?</label>
+            <input type="text" name="nameType" id="nameType" placeholder="Pon un nombre de perfil.">
+            <label for="nameType">Esto aparece en tu perfil</label>
+
+            <h3>¿Cuál es tu fecha de nacimiento?</h3>
+
+            <label for="day">Día</label>
+            <input type="number" name="dayType" id="dayType" placeholder="DD" min="1" max="31">
+
+            <label for="monthType">Mes</label>
+            <select id="monthType" name="monthType">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select>
+
+            <label for="yearType">Año</label>
+            <input type="number" name="Regex" id="yearType" placeholder="AAAA" min="1900" max="2022">
+
+            <h3>¿Cuál es tu género?</h3>
+
+            <input type="radio" name="genreType" id="genreType" >
+            <label for="genreType">Adalabo</label>
+
+            <input type="radio" name="genreType" id="genreType" >
+            <label for="genreType">Adalaber</label>
+
+            <input type="radio" name="genreType" id="genreType">
+            <label for="genreType">No binario</label>
+
+            <input type="checkbox" name="novedades" id="novedades">
+            <label for="novedades">Quiero que me enviéis novedades y ofertas de Spotify.</label>
+
+            <input type="checkbox" name="privacidad" id="privacidad">
+            <label for="privacidad">Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como se recoge en nuestra Política de Privacidad.</label>
+
+            <button>Registrarte</button>
+
+            <h5>¿Ya tienes cuenta? <a href="">Inicia sesión</a></h5>
+        </form>
+      </main>
+  </body>
